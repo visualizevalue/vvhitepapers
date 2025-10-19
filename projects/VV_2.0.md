@@ -137,7 +137,7 @@ The permanence constraint transforms every artistic decision into a permanent co
 
 ### Mathematical vs. Institutional Authenticity
 
-VV Cryptoart explores the tension between mathematical authenticity (cryptographic proof) and institutional authenticity (expert validation). This exploration reveals that different forms of authenticity serve different purposes and create different types of meaning.
+VV 2.0 explores the tension between mathematical authenticity (cryptographic proof) and institutional authenticity (expert validation). This exploration reveals that different forms of authenticity serve different purposes and create different types of meaning.
 
 Mathematical authenticity provides certainty about technical facts—creation time, ownership history, transaction sequence. Institutional authenticity provides context about cultural significance—artistic merit, historical importance, critical reception.
 
@@ -145,13 +145,13 @@ The most interesting artworks operate in the tension between these forms of auth
 
 ### Provenance as Artistic Material
 
-In traditional art, provenance is documentation about the artwork. In VV Cryptoart, provenance becomes part of the artwork itself—an integral element that contributes to meaning rather than merely recording it.
+In traditional art, provenance is documentation about the artwork. In VV 2.0, provenance becomes part of the artwork itself—an integral element that contributes to meaning rather than merely recording it.
 
 This integration enables artworks that could not exist without their provenance, where the history of ownership, transaction, and community interaction becomes essential to the artistic statement.
 
 ### The Question of Original and Copy
 
-Digital reproduction eliminates traditional distinctions between original and copy, forcing new thinking about what constitutes authenticity. VV Cryptoart uses this elimination as creative opportunity, exploring how meaning changes when perfect reproduction is possible but artificial scarcity is imposed.
+Digital reproduction eliminates traditional distinctions between original and copy, forcing new thinking about what constitutes authenticity. VV 2.0 uses this elimination as creative opportunity, exploring how meaning changes when perfect reproduction is possible but artificial scarcity is imposed.
 
 The exploration reveals that "original" and "copy" are cultural constructs rather than technical realities, opening space for new models of artistic value and meaning.
 
@@ -161,13 +161,13 @@ The exploration reveals that "original" and "copy" are cultural constructs rathe
 
 ### Collective Creation Through Individual Action
 
-VV Cryptoart recognizes that blockchain-based art is inherently collaborative—every collector, trader, and observer contributes to the artwork's meaning through their participation. The community becomes not just audience but co-creator, shaping the work's significance through collective action.
+VV 2.0 recognizes that blockchain-based art is inherently collaborative—every collector, trader, and observer contributes to the artwork's meaning through their participation. The community becomes not just audience but co-creator, shaping the work's significance through collective action.
 
 This collaborative dimension aligns with VV's broader philosophy of democratizing participation while maintaining clear creative vision. The artist provides framework and initial direction, but the community completes the work through engagement.
 
 ### Market Dynamics as Artistic Medium
 
-Traditional art markets operate separately from artworks—they determine value but don't typically change meaning. In VV Cryptoart, market dynamics become part of the artistic medium, with price movements, trading patterns, and collector behavior contributing to the work's conceptual development.
+Traditional art markets operate separately from artworks—they determine value but don't typically change meaning. In VV 2.0, market dynamics become part of the artistic medium, with price movements, trading patterns, and collector behavior contributing to the work's conceptual development.
 
 This integration enables artworks that comment on their own market dynamics, creating recursive loops between artistic statement and economic reality.
 
@@ -183,7 +183,7 @@ The use of consensus mechanisms as creative tools demonstrates how technical inf
 
 ### Value Creation Through Constraint
 
-VV Cryptoart explores how different constraint models create different types of value:
+VV 2.0 explores how different constraint models create different types of value:
 
 - **Scarcity Constraints**: Limited supply creates exclusivity and potential appreciation
 - **Time Constraints**: Limited availability creates urgency and community coordination
@@ -194,37 +194,37 @@ Each constraint model enables different artistic explorations while testing diff
 
 ### The Relationship Between Price and Meaning
 
-Traditional art markets often conflate price with artistic significance, creating feedback loops where expensive art is considered important because it's expensive. VV Cryptoart uses transparent, programmable pricing to explore this relationship more directly.
+Traditional art markets often conflate price with artistic significance, creating feedback loops where expensive art is considered important because it's expensive. VV 2.0 uses transparent, programmable pricing to explore this relationship more directly.
 
-By making pricing mechanisms visible and algorithmic, VV Cryptoart enables examination of how price affects perception, how perception affects price, and whether these relationships can be designed rather than merely observed.
+By making pricing mechanisms visible and algorithmic, VV 2.0 enables examination of how price affects perception, how perception affects price, and whether these relationships can be designed rather than merely observed.
 
 ### Network Effects and Cultural Value
 
 The value of network-based art compounds through participation—each new collector, observer, or commentator potentially increases the work's cultural significance. This compounding effect creates different value dynamics than traditional art markets, where scarcity often drives value through exclusion.
 
-VV Cryptoart explores how to design network effects that enhance rather than diminish artistic meaning, creating positive-sum dynamics where increased participation benefits all participants.
+VV 2.0 explores how to design network effects that enhance rather than diminish artistic meaning, creating positive-sum dynamics where increased participation benefits all participants.
 
 ---
 
 ## Conclusion
 
-VV Cryptoart represents the natural evolution of Visualize Value's foundational philosophy into new technological territory. Rather than abandoning core principles for technological novelty, this evolution demonstrates how blockchain infrastructure can serve timeless concerns about authenticity, value, and meaning.
+VV 2.0 represents the natural evolution of Visualize Value's foundational philosophy into new technological territory. Rather than abandoning core principles for technological novelty, this evolution demonstrates how blockchain infrastructure can serve timeless concerns about authenticity, value, and meaning.
 
 The transition reveals that the most profound technological innovations often illuminate rather than replace fundamental human concerns. Questions about what is real, what has value, and how communities create meaning find new expression in cryptographic proofs and decentralized networks, but remain essentially unchanged.
 
 The blockchain becomes invisible scaffolding that enables more sophisticated explorations of constraint, community, and collective creation. Smart contracts provide new forms of creative limitation. Network consensus enables new forms of collaborative meaning-making. Cryptographic verification creates new forms of certainty about authenticity and provenance.
 
-Most importantly, VV Cryptoart maintains absolute fidelity to the simplicity principle that defines all VV work. Complex technology serves simple, essential questions. Sophisticated infrastructure enables clear, direct communication. Advanced systems create conditions for immediate, universal understanding.
+Most importantly, VV 2.0 maintains absolute fidelity to the simplicity principle that defines all VV work. Complex technology serves simple, essential questions. Sophisticated infrastructure enables clear, direct communication. Advanced systems create conditions for immediate, universal understanding.
 
 **The lasting insight**: Technology serves philosophy, not the reverse. The blockchain becomes valuable not because it's innovative but because it enables better exploration of timeless human concerns. The art remains focused on meaning while leveraging technological capabilities to create new forms of certainty, community, and collective creation.
 
-The evolution from VV Origin to VV Cryptoart demonstrates that philosophical foundations can guide technological adoption, ensuring that new tools serve existing principles rather than replacing them. In an age of rapid technological change, this continuity provides both anchor and compass—grounding innovation in enduring values while pointing toward new possibilities for human expression and connection.
+The evolution from VV 1.0 to VV 2.0 demonstrates that philosophical foundations can guide technological adoption, ensuring that new tools serve existing principles rather than replacing them. In an age of rapid technological change, this continuity provides both anchor and compass—grounding innovation in enduring values while pointing toward new possibilities for human expression and connection.
 
 ---
 
 ## Bridge to Experimental Works
 
-The principles established in VV Origin and extended in VV Cryptoart find concrete expression in the experimental artworks that follow:
+The principles established in VV 1.0 and extended in VV 2.0 find concrete expression in the experimental artworks that follow:
 
 - **Hardware**: Explores authenticity and institutional validation
 - **Latent**: Examines AI generation and traditional photography
@@ -239,7 +239,7 @@ Each work applies these philosophical foundations to specific technical and cult
 ---
 
 *"The blockchain becomes invisible scaffolding that enables more sophisticated explorations of constraint, community, and collective creation."*
-— VV Cryptoart Philosophy
+— VV 2.0 Philosophy
 
 *"Technology serves philosophy, not the reverse."*
 — Core Principle
