@@ -50,6 +50,9 @@ Checks Originals implements a unique compositing mechanism:
 - **Infinity**: 64 single-check NFTs can be combined to create the "Black Check" (1/∞)
 - **Rarity Tiers**: Determined by the checks count (80, 40, 20, 10, 5, 4, 1, or ∞), representing the number of compositing generations
 
+![Checks Compositing Tree](./assets/checks-tree-1.png)
+*The complete compositing tree showing the progression from 80 checks to the Black Check (1/∞)*
+
 ### Check Structure
 
 Each Check contains on-chain metadata including:
@@ -238,6 +241,9 @@ Result:
 - The other 63 are permanently burned
 - Emits a `One` event with the creator's address
 - Creates a culturally significant artifact (1/∞)
+
+![64 Single Checks to One Black Check](./assets/64-single-checks-one-black-check.png)
+*Visual representation: 64 single-check tokens (left) combine to create one Black Check (right)*
 
 ---
 
