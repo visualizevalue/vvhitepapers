@@ -1,4 +1,4 @@
-# VV 1.0 Whitepaper
+# VV Origin Whitepaper
 
 ## Abstract
 
