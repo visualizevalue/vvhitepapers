@@ -26,6 +26,7 @@ The ultimate artistic goal is the creation of "1/∞" — a single Black Check f
 
 ### Key Characteristics
 
+- **Artists**: Jack Butcher, Jalil Wahdatehagh
 - **Maximum Supply**: 1.0 $BLKCHK (1 × 10^18 wei)
 - **Backed by Art**: Each token represents a fractional claim on Checks Originals NFTs
 - **Permissionless Compositing**: Anyone can composite Checks held by the contract
