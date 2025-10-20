@@ -80,7 +80,6 @@ A two-phase architecture separates static editions from dynamic originals:
 
 - Dynamic ERC-721 tokens with compositing capabilities
 - Implements transformation functions
-- Maximum supply: 8,015 (migrated from burned Editions)
 
 ### 2.3 Core Operations
 
