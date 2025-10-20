@@ -6,7 +6,7 @@ Checks is a generative art protocol that explores emergent value creation throug
 
 ### Checks Editions
 
-**Artist**: Jack Butcher
+**Artist**: Jack Butcher, Jalil Wahdatehagh
 **Contract**: `0x34eEBEE6942d8Def3c125458D1a86e0A897fd6f9`
 **Launch**: January 2023
 
