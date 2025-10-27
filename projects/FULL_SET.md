@@ -2,7 +2,7 @@
 title: Full Set
 description: A networked artwork transforming mass-market mechanics into a game of collective value creation, where 27 distinct pieces become a single statement about digital art's struggle between democratization and worth
 artist: Jack Butcher
-created_at: 2025-01-01
+created_at: 2025-01-10
 supply: 27 distinct editions
 network: Ethereum Layer 2
 platform: Rodeo
@@ -226,12 +226,14 @@ Despite low prices and open editions, scarcity emerges through:
 
 ### Value Proposition
 
-**For Individual Collectors**: 
+**For Individual Collectors**:
+
 - Low-cost entry to experimental art
 - Potential complete set assembly
 - Participation in collective artwork
 
 **For Complete Set Holders**:
+
 - Genuine scarcity (1 of 270)
 - Full artistic statement ownership
 - Historical participation record
@@ -287,13 +289,15 @@ Full Set raises fundamental questions about digital art ownership:
 
 The project directly addresses the central tension in accessible digital art:
 
-**Access Arguments**: 
+**Access Arguments**:
+
 - Art should be available to broad audiences
 - High prices exclude potential participants
 - Digital reproduction costs approach zero
 - Platform efficiency enables mass distribution
 
 **Value Arguments**:
+
 - Scarcity traditionally drives artistic worth
 - Low prices may signal low quality
 - Mass production reduces individual significance
@@ -359,11 +363,13 @@ The consensus mechanism raises questions about artistic authorship:
 Full Set occupies a unique position as both critique and celebration of new distribution models:
 
 **Critical Elements**:
+
 - Exposes potential commodification of digital art
 - Questions whether accessibility requires devaluation
 - Challenges traditional scarcity-based value systems
 
 **Celebratory Elements**:
+
 - Demonstrates artistic possibility within mass-market systems
 - Shows how collective action can create meaning
 - Proves nuanced statements possible in accessible formats
@@ -405,7 +411,7 @@ The work contributes to an emerging paradigm where platform dynamics become arti
 ## Access and Collection
 
 - **Primary Platform**: Rodeo (24-hour open editions)
-- **Collection View**: [OpenSea](https://opensea.io) 
+- **Collection View**: [OpenSea](https://opensea.io)
 - **Network Visualization**: [Rodeo Gallery](https://rodeo.club)
 - **Artist Portfolio**: [jack.art](https://www.jack.art/work/full-set)
 
@@ -416,6 +422,6 @@ The work contributes to an emerging paradigm where platform dynamics become arti
 
 ---
 
-_Version 1.0 — January 2025_
+*Version 1.0 — January 2025*
 
-_This whitepaper describes an experimental networked artwork exploring platform dynamics and collective value creation. Nothing herein constitutes financial, legal, or investment advice. Participation is entirely at your own risk. Value and meaning are subjective. This artwork may or may not be notable._
+*This whitepaper describes an experimental networked artwork exploring platform dynamics and collective value creation. Nothing herein constitutes financial, legal, or investment advice. Participation is entirely at your own risk. Value and meaning are subjective. This artwork may or may not be notable.*
