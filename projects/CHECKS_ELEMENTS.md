@@ -1,3 +1,20 @@
+---
+title: Checks Elements
+description: A sophisticated exploration of the relationship between digital and physical art, consensus mechanisms, and fundamental building blocks of distributed systems, pairing 152 generative digital artworks with hand-crafted monoprints
+artist: Jack Butcher
+collaborators: Jalil Wahdatehagh, Jean Milant, Cirrus Editions, Christie's
+created_at: 2023-05-01
+supply: 152
+network: Ethereum
+exhibition: Frieze New York 2023
+tags:
+  - generative art
+  - printmaking
+  - elements
+  - consensus
+  - Christie's
+---
+
 # Checks Elements Whitepaper
 
 ## Abstract
@@ -42,6 +59,7 @@ This progression reflects a deeper philosophical inquiry: if verification symbol
 Checks Elements employs the conceptual framework of a periodic table, suggesting that just as chemical elements combine to create all matter, fundamental consensus elements combine to create all forms of digital agreement and verification. The 152 pieces represent different combinations and variations of these elemental forces, exploring how they interact, combine, and transform.
 
 This framework enables examination of:
+
 - **Elemental Properties**: How individual forces behave in isolation
 - **Compound Interactions**: How elements combine to create new properties
 - **Systemic Emergence**: How complex consensus systems arise from simple elemental interactions
@@ -119,13 +137,15 @@ This layered authentication system demonstrates how different verification metho
 
 Each piece in Checks Elements exists simultaneously in two states:
 
-**Digital State**: 
+**Digital State**:
+
 - Algorithmic generation and infinite reproducibility
 - Blockchain-verified ownership and provenance
 - Global accessibility and instant verification
 - Network effects and community engagement
 
 **Physical State**:
+
 - Hand-crafted uniqueness and material presence
 - Fingerprint authentication and traditional provenance
 - Geographic specificity and institutional validation
@@ -183,6 +203,7 @@ Each physical piece undergoes a multi-step authentication process:
 The Christie's auction title—"Jack Butcher: Checks Elements – This Artwork May or May Not Be Notable"—reflects Butcher's characteristic approach to questioning value attribution in art markets. The title simultaneously acknowledges and challenges the mechanisms by which artworks achieve cultural significance.
 
 This self-referential commentary creates multiple layers of meaning:
+
 - **Market Commentary**: Questions how auction houses and institutions determine artistic value
 - **Temporal Uncertainty**: Acknowledges that artistic significance often emerges over time
 - **Democratic Perspective**: Suggests that cultural value is determined by community consensus rather than institutional decree
@@ -194,7 +215,7 @@ The May 2023 Christie's auction achieved significant results:
 
 - **Total Sales**: 50.10 ETH (approximately $93,035.70 at time of sale)
 - **Sell-Through Rate**: 100% (all 152 pieces sold)
-- **Top Performers**: 
+- **Top Performers**:
   - "Air": 19.88 ETH
   - "Water": 17.25 ETH  
   - "Earth": 12.97 ETH
@@ -285,6 +306,7 @@ Through Checks Elements, Jack Butcher has created not just a successful art proj
 ## Technical Specifications
 
 ### Digital Component
+
 - **Format**: Generative digital artwork
 - **Blockchain**: Ethereum ERC-721 NFTs
 - **Supply**: 152 unique pieces
@@ -292,6 +314,7 @@ Through Checks Elements, Jack Butcher has created not just a successful art proj
 - **Metadata**: Comprehensive on-chain and IPFS storage
 
 ### Physical Component
+
 - **Medium**: Lithographic monoprint
 - **Size**: 32" x 40" (archival paper)
 - **Production**: Cirrus Editions, Los Angeles
@@ -300,6 +323,7 @@ Through Checks Elements, Jack Butcher has created not just a successful art proj
 - **Uniqueness**: Hand-crafted, no mechanical reproduction
 
 ### Market Information
+
 - **Auction House**: Christie's
 - **Auction Date**: May 16-23, 2023
 - **Beneficiary**: St. Jude Children's Research Hospital
@@ -315,6 +339,6 @@ Through Checks Elements, Jack Butcher has created not just a successful art proj
 
 ---
 
-_Version 1.0 — 2023_
+*Version 1.0 — 2023*
 
-_This whitepaper documents an experimental artwork exploring the relationship between classical elements and digital consensus systems. The analysis reflects publicly available information about the project's conception, production, and market reception. This document is for educational and cultural purposes._
+*This whitepaper documents an experimental artwork exploring the relationship between classical elements and digital consensus systems. The analysis reflects publicly available information about the project's conception, production, and market reception. This document is for educational and cultural purposes.*

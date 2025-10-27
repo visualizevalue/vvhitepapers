@@ -1,3 +1,20 @@
+---
+title: 1 of 1 of ?
+description: An experimental artwork exploring the paradox of artificial scarcity on abundant mediums through the simultaneous sale of the same artwork as both a unique 1-of-1 piece and an open edition
+artist: Jack Butcher
+collaborators: Sotheby's, Gamma
+created_at: 2024-05-01
+supply: 1-of-1 + open edition
+network: Bitcoin Ordinals
+inscription: 69218154
+tags:
+  - artificial scarcity
+  - Bitcoin Ordinals
+  - labor vs leverage
+  - Sotheby's
+  - proof of work
+---
+
 # 1 of 1 of ? Whitepaper
 
 ## Abstract

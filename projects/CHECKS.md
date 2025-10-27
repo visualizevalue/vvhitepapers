@@ -1,3 +1,23 @@
+---
+title: Checks
+description: A generative art protocol exploring emergent value creation through participant-driven scarcity mechanisms, implementing a compositing architecture that enables token holders to irreversibly transform their assets through on-chain burning operations
+artists:
+  - Jack Butcher
+  - Jalil Wahdatehagh
+created_at: 2023-01-03
+supply_editions: 16031
+supply_originals: Variable (burns from Editions)
+network: Ethereum
+contract_editions: 0x34eEBEE6942d8Def3c125458D1a86e0A897fd6f9
+contract_originals: 0x036721e5A769Cc48B3189EFbb9ccE4471E8A48B1
+tags:
+  - generative art
+  - verification
+  - burn mechanism
+  - compositing
+  - consensus
+---
+
 # Checks: A Protocol for Bottom-Up Verification
 
 ## Abstract

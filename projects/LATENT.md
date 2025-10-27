@@ -1,3 +1,20 @@
+---
+title: Latent
+description: An experimental artwork exploring the intersection of AI-generated imagery and traditional photography, challenging notions of creativity and authorship in the digital age
+artist: Jack Butcher
+collaborators: PICTO, LaCollection, Beyond Art Creative, Gary Powell
+created_at: 2024-10-01
+supply: 80
+network: Ethereum
+exhibition: Paris Photo, November 7-10, 2024
+tags:
+  - AI art
+  - photography
+  - surrealism
+  - digital negatives
+  - silver gelatin
+---
+
 # Latent Whitepaper
 
 ## Abstract

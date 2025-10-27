@@ -1,3 +1,20 @@
+---
+title: Full Set
+description: A networked artwork transforming mass-market mechanics into a game of collective value creation, where 27 distinct pieces become a single statement about digital art's struggle between democratization and worth
+artist: Jack Butcher
+created_at: 2025-01-01
+supply: 27 distinct editions
+network: Ethereum Layer 2
+platform: Rodeo
+complete_sets: 270 possible
+tags:
+  - collective action
+  - consensus mechanism
+  - network effects
+  - platform critique
+  - transformation
+---
+
 # Full Set Whitepaper
 
 ## Abstract

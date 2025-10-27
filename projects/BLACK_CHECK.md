@@ -1,3 +1,21 @@
+---
+title: Black Check
+description: An experimental ERC20 token that creates a fungible representation of Checks Originals NFTs through a novel deposit and exchange mechanism, exploring themes of scarcity, fungibility, and collective creation
+artists:
+  - Jack Butcher
+  - Jalil Wahdatehagh
+created_at: 2025-10-17
+supply: 1.0 $BLKCHK maximum
+network: Ethereum
+token_type: ERC20
+tags:
+  - fungible token
+  - NFT compositing
+  - Checks ecosystem
+  - liquidity
+  - collective creation
+---
+
 # Black Check Whitepaper
 
 ## Abstract

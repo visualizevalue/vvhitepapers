@@ -1,3 +1,20 @@
+---
+title: Gas Wars
+description: A networked generative artwork exploring survivorship bias through 500 combat simulations on the Ethereum Virtual Machine
+artist: Jack Butcher
+collaborators: Jalil Wahdatehagh, Art Blocks
+created_at: 2025-09-01
+supply: 500
+network: Ethereum
+platform: Art Blocks Curated
+tags:
+  - generative art
+  - survivorship bias
+  - Art Blocks
+  - economics
+  - blockchain
+---
+
 # Gas Wars Whitepaper
 
 ## Abstract

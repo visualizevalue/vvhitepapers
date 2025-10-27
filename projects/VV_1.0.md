@@ -1,3 +1,16 @@
+---
+title: VV 1.0
+description: A philosophical framework for understanding and communicating complex ideas through radical simplicity, where the highest form of sophistication lies in the ability to distill complexity into its essential elements
+artist: Jack Butcher
+created_at: 2018-01-01
+tags:
+  - philosophy
+  - visual thinking
+  - simplicity
+  - constraints
+  - education
+---
+
 # VV 1.0 Whitepaper
 
 ## Abstract

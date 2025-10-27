@@ -1,3 +1,19 @@
+---
+title: Lemonade Stand
+description: An experimental artwork that emerged from an accidental token launch, transforming an unintended billion-supply ERC-20 coin into a nine-piece art project exploring childhood entrepreneurship and adult-scale capital markets
+artist: Jack Butcher
+created_at: 2025-08-01
+supply: 9 pieces + 1 creator coin
+platform: Zora
+network: Ethereum
+tags:
+  - permissionless commerce
+  - infinite supply
+  - liquidity
+  - platform economics
+  - childhood entrepreneurship
+---
+
 # Lemonade Stand Whitepaper
 
 ## Abstract

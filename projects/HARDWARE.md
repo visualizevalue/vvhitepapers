@@ -1,3 +1,20 @@
+---
+title: Hardware
+description: An experimental blockchain artwork interrogating authenticity, provenance, and institutional validation through AI-generated hyper-realistic renderings of traditional authentication systems
+artist: Jack Butcher
+collaborators: Highlight
+created_at: 2025-01-01
+supply: 544
+network: Ethereum Layer 1
+contract: 0x0c3dd3c403b6B5c0CCe2a97F15820a4Eae347FE7
+tags:
+  - provenance
+  - authenticity
+  - AI art
+  - institutional critique
+  - verification
+---
+
 # Hardware Whitepaper
 
 ## Abstract

@@ -1,3 +1,16 @@
+---
+title: VV 2.0
+description: The evolution of Visualize Value's philosophy into blockchain-based art and digital ownership, exploring how cryptographic verification and decentralized networks serve as new mediums for artistic expression
+artist: Jack Butcher
+created_at: 2021-01-01
+tags:
+  - blockchain art
+  - cryptographic certainty
+  - digital ownership
+  - evolution
+  - philosophy
+---
+
 # VV 2.0 Whitepaper
 
 ## Abstract
