@@ -45,7 +45,7 @@ The ultimate artistic goal is the creation of "1/∞" — a single Black Check f
 ### Key Characteristics
 
 - **Artists**: Jack Butcher, Jalil Wahdatehagh
-- **Maximum Supply**: 1.0 $BLKCHK (1 × 10^18 wei)
+- **Maximum Supply**: 1.0 $BLKCHK (18 decimal points)
 - **Backed by Art**: Each token represents a fractional claim on Checks Originals NFTs
 - **Permissionless Compositing**: Anyone can composite Checks held by the contract
 - **Asymmetric Liquidity**: Deposits are permanent; redemption depends on available inventory
@@ -117,7 +117,7 @@ Black Check is positioned as **experimental digital artwork**, not a financial p
 
 ### Supply Model
 
-The maximum supply is **exactly 1 $BLKCHK token** (1 × 10^18 wei with 18 decimals). This supply would only be reached if a Black Check is created via the contract.
+The maximum supply is **exactly 1 $BLKCHK token**. This supply would only be reached if a Black Check is created via the contract.
 
 ### Allocation Formula
 
@@ -501,7 +501,7 @@ Whether the community successfully creates 1/∞ — the singular Black Check �
 - **License**: MIT
 - **ERC20 Implementation**: Solady
 - **Decimals**: 18
-- **Max Supply**: 1 × 10^18 wei
+- **Max Supply**: 1 (1 × 10^18)
 
 ### Key Functions
 
