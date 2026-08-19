@@ -1,6 +1,6 @@
 ---
 title: Black Check
-description: An experimental ERC20 token that creates a fungible representation of Checks Originals NFTs through a novel deposit and exchange mechanism, exploring themes of scarcity, fungibility, and collective creation
+description: An experimental ERC20 token that creates a fungible protocol representation of Checks Originals NFTs through a deposit and exchange mechanism, exploring themes of scarcity, fungibility, and collective creation
 artists:
   - Jack Butcher
   - Jalil Wahdatehagh
@@ -12,7 +12,7 @@ tags:
   - fungible token
   - NFT compositing
   - Checks ecosystem
-  - liquidity
+  - fungibility
   - collective creation
 ---
 
@@ -20,19 +20,20 @@ tags:
 
 ## Abstract
 
-Black Check ($BLKCHK) is an experimental ERC20 token that creates a fungible representation of Checks Originals NFTs through a novel deposit and exchange mechanism. Built on Ethereum, the protocol enables participants to transform discrete NFTs into liquid tokens while maintaining a path back to specific artworks. With a maximum supply of exactly 1 token, Black Check explores themes of scarcity, fungibility, and collective creation within the established Checks ecosystem.
+Black Check ($BLKCHK) is an experimental ERC20 token that creates a fungible protocol representation of Checks Originals NFTs through a deposit and exchange mechanism. Built on Ethereum, the protocol enables participants to deposit Checks to mint $BLKCHK and burn $BLKCHK to extract eligible Checks held by the contract. With a maximum supply of exactly 1 token, Black Check explores themes of scarcity, fungibility, and collective creation within the established Checks ecosystem.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [The Checks Ecosystem](#the-checks-ecosystem)
 3. [Protocol Overview](#protocol-overview)
-4. [Tokenomics](#tokenomics)
-5. [Core Mechanics](#core-mechanics)
-6. [Technical Architecture](#technical-architecture)
-7. [Game Theory & Economics](#game-theory--economics)
-8. [Risks & Considerations](#risks--considerations)
-9. [Conclusion](#conclusion)
+4. [Release](#release)
+5. [Tokenomics](#tokenomics)
+6. [Core Mechanics](#core-mechanics)
+7. [Technical Architecture](#technical-architecture)
+8. [Participation & Market Relationships](#participation--market-relationships)
+9. [Risks & Considerations](#risks--considerations)
+10. [Conclusion](#conclusion)
 
 ---
 
@@ -46,9 +47,9 @@ The ultimate artistic goal is the creation of "1/∞" — a single Black Check f
 
 - **Artists**: Jack Butcher, Jalil Wahdatehagh
 - **Maximum Supply**: 1.0 $BLKCHK (18 decimal points)
-- **Backed by Art**: Each token represents a fractional claim on Checks Originals NFTs
+- **Protocol Representation**: $BLKCHK is minted according to Checks deposited into the protocol and can be burned to extract eligible Checks held by the contract
 - **Permissionless Compositing**: Anyone can composite Checks held by the contract
-- **Asymmetric Liquidity**: Deposits are permanent; redemption depends on available inventory
+- **Asymmetric Extraction**: Deposits are permanent; extraction depends on available inventory
 - **On-Chain Artwork**: The protocol itself is an artistic exploration, not a financial instrument
 
 ---
@@ -105,11 +106,16 @@ Black Check is positioned as **experimental digital artwork**, not a financial p
 
 ### Design Goals
 
-1. **Create Liquidity**: Transform illiquid NFTs into fungible tokens
-2. **Enable Price Discovery**: Establish market-driven valuation for different Check rarities
-3. **Facilitate Compositing**: Accelerate the journey toward 1/∞
-4. **Explore Ownership**: Question the nature of digital ownership and fungibility
-5. **Maintain Optionality**: Allow participants to exchange back to specific NFTs
+1. **Explore Fungibility**: Represent discrete Checks through a common protocol unit
+2. **Facilitate Compositing**: Accelerate the journey toward 1/∞
+3. **Explore Ownership**: Question the nature of digital ownership and fungibility
+4. **Maintain Optionality**: Allow participants to exchange back to specific NFTs
+
+---
+
+## Release
+
+Black Check was deployed as a complete, functioning smart contract. There was no token sale, presale, fundraising round, or sale of $BLKCHK by the artists to finance development. The contract does not accept ETH. $BLKCHK is created by participants depositing Checks according to rules encoded in the deployed contract. Participation does not depend on future development, management, or promised efforts by the artists.
 
 ---
 
@@ -143,7 +149,7 @@ The allocation follows an exponential progression where each compositing generat
 - **20-check → 10-check**: 2x tokens
 - And so on...
 
-This creates a direct mathematical relationship between the artistic progression of Checks and their economic value in the $BLKCHK system.
+This creates a direct mathematical relationship between the artistic progression of Checks and their $BLKCHK allocation under the protocol.
 
 ### Maximum Possible Supply
 
@@ -205,11 +211,11 @@ The exchange process:
 3. Transfers the Check NFT to msg.sender (reverts if contract doesn't own it)
 4. Emits an `Exchange` event
 
-**Exchange Economics**: The burn amount equals the original mint amount for that Check's checks count. This creates interesting dynamics:
+**Exchange Mechanics**: The burn amount equals the original mint amount for that Check's checks count. This creates the following conditions:
 
 - A composited Check (e.g., 40 checks) requires burning MORE tokens than the original deposited 80-check
 - Participants must acquire additional tokens or hope the contract holds less-composited Checks
-- The exchange mechanism creates price discovery for different checks counts
+- The exchange mechanism preserves the deterministic allocation for each checks count
 
 ### 3. Compositing Checks
 
@@ -232,12 +238,12 @@ Compositing rules:
 - Permanently burns the composited NFT
 - Emits a `Composite` event with the compositor's address
 
-**Strategic Implications**:
+**Protocol Implications**:
 
-- Compositing increases the value of the remaining Check
+- Compositing changes the form and allocation of the remaining Check
 - Reduces the number of Checks available for redemption
 - Progresses the ecosystem toward the ultimate Black Check
-- Creates a public good (anyone can composite, everyone benefits)
+- Enables permissionless coordination toward the collective artwork
 
 ### 4. Creating the Black Check (1/∞)
 
@@ -327,27 +333,25 @@ error NotAllowed();             // Insufficient approval
 
 ---
 
-## Game Theory & Economics
+## Participation & Market Relationships
 
 ### Participant Incentives
 
 **Depositors:**
 
-- Convert illiquid NFTs to liquid tokens
-- Gain exposure to the broader Checks ecosystem
+- Deposit Checks into the protocol
+- Receive $BLKCHK according to the deterministic allocation associated with the deposited Check
 - Accept risk of losing specific NFT to compositing
 
 **Compositors:**
 
 - Advance the artistic goal of creating 1/∞
-- Potentially increase value of remaining Checks (scarcity)
 - Cultural recognition via `Composite` event attribution
-- No direct economic incentive (public good)
+- Participate in permissionless coordination
 
 **Token Holders:**
 
-- Speculate on $BLKCHK value relative to Checks
-- Arbitrage price differences between rarities
+- Hold or transfer the fungible protocol representation
 - Participate in collective artwork creation
 
 **Redeemers:**
@@ -356,44 +360,15 @@ error NotAllowed();             // Insufficient approval
 - Must burn proportional tokens
 - Compete for desirable Check IDs
 
-### Market Dynamics
+### Protocol Supply
 
-**Supply Side:**
-
-- Supply only increases via deposits (no inflation)
-- Supply decreases via exchange (deflationary)
+- Supply increases via deposits
+- Supply decreases via exchange
 - Max supply is 1.0 token (hard cap)
 
-**Demand Side:**
+### Market Relationships
 
-- Demand driven by desire for liquidity
-- Cultural value of participating in "1/∞" creation
-- Speculation on future Checks prices
-- Utility of fungible representation
-
-### Arbitrage Opportunities
-
-Price discovery occurs across multiple dimensions:
-
-1. **Checks Count**: Different checks counts may trade at different premiums
-2. **Check IDs**: Lower token IDs may be more valuable (cultural preference)
-3. **Visual Traits**: Color bands, gradients, and other attributes may command premiums
-4. **Composite History**: Provenance may influence value
-
-Example arbitrage:
-
-```
-If 1-check Checks trade at 20 ETH on OpenSea
-And $BLKCHK trades at 1000 ETH per token
-Then:
-  1-check = 0.015625 $BLKCHK = 15.625 ETH
-  Arbitrage: Buy 1-check at 20 ETH, deposit for $BLKCHK, lose -4.375 ETH
-  (No arbitrage in this direction)
-
-But if $BLKCHK trades at 1500 ETH:
-  1-check = 0.015625 $BLKCHK = 23.4375 ETH
-  Arbitrage: Buy 1-check at 20 ETH, deposit for $BLKCHK, profit +3.4375 ETH
-```
+Market relationships may emerge between $BLKCHK and individual Checks. The protocol does not prescribe or depend on any particular relationship.
 
 ### Compositing as Participatory Art
 
@@ -418,7 +393,7 @@ The path is uncertain and depends on:
 
 - How many Checks are deposited
 - How aggressively participants composite
-- Whether someone prioritizes cultural achievement over economics
+- Whether participants prioritize extraction or continued compositing
 
 ---
 
@@ -431,12 +406,12 @@ The path is uncertain and depends on:
 - **Irreversibility**: All blockchain transactions are permanent
 - **Gas Costs**: Ethereum transactions require ETH for gas fees
 
-### Market Risks
+### Exchange & Market Risks
 
 - **Illiquidity**: $BLKCHK may have limited trading volume
 - **Price Volatility**: Token price may fluctuate significantly
 - **Redemption Unavailability**: Desired Checks may not be held by the contract
-- **Divergence from NAV**: Token price may not reflect underlying Check values
+- **External Pricing**: Market prices may differ from the protocol's deterministic allocations
 
 ### Artistic Risks
 
@@ -447,7 +422,7 @@ The path is uncertain and depends on:
 
 ### Regulatory Considerations
 
-**This is not financial advice. This is not a security.**
+**Black Check was created and released as experimental digital artwork, not as a fundraising mechanism or investment product.**
 
 BlackCheck is positioned as experimental digital artwork. However:
 
@@ -480,12 +455,12 @@ The BlackCheck contract includes this notice:
 
 ## Conclusion
 
-Black Check represents a novel experiment at the intersection of NFTs, fungible tokens, and on-chain art. By creating a liquid representation of Checks Originals while maintaining paths to redemption and compositing, the protocol explores fundamental questions about:
+Black Check represents a novel experiment at the intersection of NFTs, fungible tokens, and on-chain art. By creating a fungible protocol representation of Checks Originals while maintaining paths to extraction and compositing, the protocol explores fundamental questions about:
 
 - **Fungibility vs. Uniqueness**: Can unique art be meaningfully fungible?
 - **Individual vs. Collective**: How do personal interests align with group goals?
-- **Value Creation**: Where does value come from in digital art?
-- **Ownership Models**: What does it mean to "own" a fractional claim on art?
+- **Meaning**: How is meaning created through participation in digital art?
+- **Ownership Models**: What does it mean to hold a fungible representation connected to unique artworks?
 
 The ultimate success of BlackCheck cannot be measured purely in economic terms. As an artwork, it succeeds by provoking thought, enabling participation, and creating new forms of cultural expression.
 
@@ -549,6 +524,6 @@ function _calculateAmount(uint8 divisorIndex) private pure returns (uint256)
 
 ---
 
-_Version 1.0 — October 2025_
+_Version 1.1 — August 2026_
 
 _This whitepaper describes an experimental artwork. Nothing herein constitutes financial, legal, or investment advice. Participation is entirely at your own risk. Value and meaning are subjective. This artwork may or may not be notable._
